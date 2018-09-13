@@ -192,3 +192,17 @@
 {"message":"Email was re-opened","level":"info"}
 {"message":"bz7e7ikjlzt4e3x","level":"info"}
 {"message":"Checking status for tracker: not_a_real_id","level":"info"}
+{"message":"Service running on port: 8000","level":"info"}
+{"message":"Email was opened","level":"info"}
+{"message":"bz7e8mqjlzuv231","level":"info"}
+{"message":"Service running on port: 8000","level":"info"}
+{"message":"Email was opened","level":"info"}
+{"message":"bz7e8myjlzuvfwa","level":"info"}
+{"message":"Checking status for tracker: bz7e8myjlzuvfwa","level":"info"}
+{"message":"Email was re-opened","level":"info"}
+{"message":"bz7e8myjlzuvfwa","level":"info"}
+{"message":"Checking status for tracker: bz7e8myjlzuvfwa","level":"info"}
+{"message":"Email was re-opened","level":"info"}
+{"message":"bz7e8myjlzuvfwa","level":"info"}
+{"message":"Checking status for tracker: bz7e8myjlzuvfwa","level":"info"}
+{"message":"Checking status for tracker: not_a_real_id","level":"info"}
