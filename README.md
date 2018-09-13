@@ -37,7 +37,8 @@ npm test
 
 ## Notes
 ##### This project is just using redis-mock temporarily to avoid database setup.
-
+##### Quick Architecture diagram: https://www.lucidchart.com/invitations/accept/9dc78c42-6555-4a97-9d26-c34e68fcdf01
+##### Diagram is utilizing AWS but can be easily translated to using GCP and Kubernetes.
 ## TODO
 + Get Email Headers (TO, FROM)
 + Kubernetes Deployment strategy
