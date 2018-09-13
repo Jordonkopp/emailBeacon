@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  # Configure tracker service
+  tracker:
+    build: .
+    expose:
+    - "8000"
+    ports:
+    - "8000:8000"

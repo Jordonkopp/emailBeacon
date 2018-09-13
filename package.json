@@ -1,0 +1,29 @@
+{
+  "name": "email_beacon",
+  "version": "1.0.0",
+  "description": "Email tracking beacon api",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --exit -- app/tests/*.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Jordon Kopp",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "redis-mock": "^0.32.0",
+    "uniqid": "^5.0.3",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "jest": "^23.6.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "nyc": "^13.0.1",
+    "supertest": "^3.3.0"
+  }
+}
