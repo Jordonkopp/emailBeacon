@@ -39,5 +39,9 @@ docker-copose up --build
 ```
 
 ## Notes
+Keep in mind this service is utilizing redis-mock for the database, so if you spin up multiple nodes
+you will get different or wrong responses depending on which node the Load Balancer sent you too, so
+for now keep num-nodes to 1.
+
 Since there is no set vanity domain at this time the service returns the default 127.0.0.1:8000 as the imageUrl host. 
 You will need to replace that with the external IP for now.
